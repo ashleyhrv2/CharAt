@@ -27,11 +27,11 @@ public class UseChar
 				break;
 			default:
 				notvowel = notvowel + 1;
-				break 
-				
-					
+				break; 	
 			}
 		}
+		return numofvowels;
 	}
 
 }
+
