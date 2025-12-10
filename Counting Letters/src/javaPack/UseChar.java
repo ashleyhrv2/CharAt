@@ -6,10 +6,10 @@ public class UseChar
 	Scanner allinput = new Scanner(System.in);
 	public UseChar()
 	{
-		System.out.print("Enter a word: ");
+		System.out.print("\nEnter a word: ");
 		String vowelword = allinput.nextLine();
 		int numvowels = CountVowels(vowelword);
-		System.out.println("The number of vowels are: " + numvowels );
+		System.out.println("\nThe number of vowels are: " + numvowels );
 	}
 	
 	private static int CountVowels(String wordvowel)
@@ -27,11 +27,12 @@ public class UseChar
 				break;
 			default:
 				notvowel = notvowel + 1;
-				break; 	
+				break;
+				
 			}
 		}
 		return numofvowels;
 	}
+	
 
 }
-
